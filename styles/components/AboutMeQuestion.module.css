@@ -1,0 +1,59 @@
+.container {
+    height: 90vh;
+    background-color: var(--main-dark);
+    color: var(--white);
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container h2 {
+    font-size: 1.8rem;
+  }
+  
+  .buttonsField {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 150px;
+  }
+  .buttonsField button{
+    height: 180px;
+    width: 180px;
+    border-radius: 12px;
+    border: none;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: var(--main);
+  }
+  
+  .buttonsField button:hover{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  
+  .confirmButton:hover {
+    background-color: var(--green);
+  }
+  
+  .confirmButton:hover .upIcon {
+    color: var(--main);
+  }
+  
+  .denyButton:hover {
+    background-color: var(--red);
+  }
+  
+  .denyButton:hover .downIcon{
+    color: var(--main);
+  }
+  
+  .upIcon {
+    color: var(--green);
+  }
+  
+  .downIcon {
+    color: var(--red);
+  }

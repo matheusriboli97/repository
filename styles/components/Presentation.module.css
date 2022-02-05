@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  justify-content: space-between;
+}
+
+.leftSide {
+  font-size: 3rem;
+  margin-top: 120px;
+  margin-left: 60px;
+}
+
+.secondName {
+  display: flex;
+  color: var(--yellow);
+}
+
+.secondName > h3 {
+  color: var(--white);
+}
+
+.socialMediaLogos {
+  width: 100%;
+  margin-top: 1.875rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialMediaLogos > * {
+  cursor: pointer;
+}
+
+.description {
+  width: 35%;
+  font-size: 1.5rem;
+  margin-top: 7.5rem;
+  margin-right: 3.75rem;
+}
+.description > p {
+  font-size: 1rem;
+}

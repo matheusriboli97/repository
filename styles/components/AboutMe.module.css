@@ -1,0 +1,38 @@
+.container {
+    height: 90vh;
+    background-color: var(--main-dark);
+    color: var(--white);
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .description {
+    width: 80%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 4%;
+    line-height: 2.1rem;
+  }
+  
+  .btnField {
+    height: 30px;
+    width: 180px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.0rem;
+    font-weight: bold;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: var(--yellow);
+    margin-top: 4%;
+  }
+  
+  .btnField:hover{
+    background-color: var(--white);
+  }

@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  margin-bottom: 75px;
+}
+
+.imageField {
+  margin-left: 35px;
+  margin-top: 70px;
+}
+
+.modulesField {
+  display: flex;
+  margin-right: 75px;
+  margin-top: 70px;
+}
+
+.modulesField p{
+  font-size: 15px;
+  font-weight: lighter;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.modulesField p:hover{
+  color: var(--yellow);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
