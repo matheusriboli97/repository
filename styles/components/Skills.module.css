@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 50px);
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h2 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+}
+
+.body {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 6rem;
+}
+
+.skillBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 360px;
+    width: 20%;
+    padding: 1rem;
+    background-color: var(--main-dark);
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.skillBox h3 {
+    font-size: 2rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.skillDescription {
+  font-size: 1.3rem;
+  font-weight: 100;
+  text-align: center;
+  font-family: 'Poppins';
+  line-height: 2.4rem;
+}
+
+.skillDescriptionHighlight {
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Poppins';
+  color: var(--yellow);
+}

@@ -10,33 +10,33 @@ const Presentation = () => {
           <h3>Riboli</h3>.
         </div>
         <div className={styles.socialMediaLogos}>
-          {/* <Image
+          <Image
             className="avatar"
-            src="/logo/linkedin.svg"
+            src="/linkedin.svg"
             alt="Matheus Riboli"
             width={39}
             height={39}
           />
           <Image
             className="avatar"
-            src="/logo/instagram.svg"
+            src="/instagram.svg"
             alt="Matheus Riboli"
             width={39}
             height={39}
           />
           <Image
             className="avatar"
-            src="/logo/gmail.svg"
+            src="/gmail.svg"
             alt="Matheus Riboli"
             width={39}
             height={39}
-          /> */}
+          />
         </div>
       </div>
       <div>
       {/* <Image
             className="avatar"
-            src="/images/Me.png"
+            src="/profile.svg"
             alt="Matheus Riboli"
             width={1200}
             height={748}
