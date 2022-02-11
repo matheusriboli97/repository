@@ -4,6 +4,7 @@ import AboutMeQuestion from '../components/AboutMeQuestion';
 import AboutMe from '../components/AboutMe';
 import { useState } from 'react';
 import Skills from '../components/Skills';
+import Tools from '../components/Tools';
 
 export default function Home() {
   const [showPage, setShowPage] = useState<number>(0);
@@ -15,6 +16,7 @@ export default function Home() {
       {showPage === 1 && <AboutMe />}
       {showPage === 2 && <h1>2</h1>}
       <Skills />
+      <Tools />
     </div>
   )
 }
