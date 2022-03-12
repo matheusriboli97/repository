@@ -13,16 +13,31 @@
 
 .modulesField {
   display: flex;
-  margin-right: 75px;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 35px;
   margin-top: 70px;
 }
 
 .modulesField p{
-  font-size: 15px;
+  font-size: 1.2rem;
   font-weight: lighter;
   cursor: pointer;
   transition: 0.5s;
 }
+
+.flagButtons {
+  margin-right: 4rem;
+}
+
+/* .flagButtons :first-child{
+  margin-right: 0.5rem;
+} */
+
+.flag {
+  border-radius: 100px;
+}
+
 
 .modulesField p:hover{
   color: var(--yellow);

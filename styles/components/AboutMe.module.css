@@ -1,7 +1,6 @@
 .container {
     height: 90vh;
     background-color: var(--main-dark);
-    color: var(--white);
     display: flex;
     padding-top: 30px;
     align-items: center;
@@ -9,7 +8,7 @@
   }
   
   .title {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   
   .description {

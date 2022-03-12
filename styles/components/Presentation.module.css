@@ -6,7 +6,7 @@
 }
 
 .leftSide {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 120px;
   margin-left: 60px;
 }
@@ -16,7 +16,7 @@
   color: var(--yellow);
 }
 
-.secondName > h3 {
+.secondName h3 {
   color: var(--white);
 }
 
@@ -27,16 +27,17 @@
   justify-content: space-between;
 }
 
-.socialMediaLogos > * {
+.socialMediaLogos * {
   cursor: pointer;
 }
 
 .description {
   width: 35%;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-top: 7.5rem;
   margin-right: 3.75rem;
 }
 .description > p {
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-weight: 200;
 }

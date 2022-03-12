@@ -12,9 +12,9 @@ export default function Home() {
     <div >
       < Header />
       <Presentation />
-      {showPage === 0 && <AboutMeQuestion setShowPage={setShowPage}/>}
+      {/* {showPage === 0 && <AboutMeQuestion setShowPage={setShowPage}/>}
       {showPage === 1 && <AboutMe />}
-      {showPage === 2 && <h1>2</h1>}
+      {showPage === 2 && <h1>2</h1>} */}
       <Skills />
       <Tools />
     </div>
